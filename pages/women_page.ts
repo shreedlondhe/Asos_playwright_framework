@@ -1,5 +1,5 @@
 
-
+import utils from '../test_utils/utils'
 
 
 
@@ -13,7 +13,9 @@ export default class women{
     }
 
     async gotoWomenSection(){
-        await this.womenSection.click();
+
+     
+    await utils.click(this.womenSection,'Clicking on women section')
     
             }
 

@@ -1,5 +1,5 @@
 import { Locator } from "@playwright/test";
-
+import utils from '../test_utils/utils'
 
 
 
@@ -13,8 +13,8 @@ this.searchBox=this.page.locator("//input[@id='chrome-search']")
 }
 
 
-async searching(things:string){
-await this.searchBox.fill(things);
+async searching(things:string){   // things == ring
+await utils.fill(this.searchBox,things,`Searching for ${things}`)
 await this.page.keyboard.press('Enter');
 
 }
