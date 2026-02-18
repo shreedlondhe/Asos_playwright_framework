@@ -13,7 +13,6 @@ this.menSection=this.page.locator("//a[.='MEN']").first();
 
 async gotoMenSectiion(){
 await this.menSection.click();
-
 }
 
 }
