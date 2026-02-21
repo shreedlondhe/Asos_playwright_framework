@@ -37,6 +37,8 @@ test("login test",async({})=>{
    Logger.log("Searcing for ruing test case completed")
    
    Logger.log("Login case is completed now")
+   Logger.log("addeed one more log statement")
+
    Logger.log("Added 3rd login statement");
 
    
