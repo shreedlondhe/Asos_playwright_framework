@@ -36,7 +36,7 @@ test("login test",async({})=>{
    await search_object.searching("ring");
    Logger.log("Searcing for ruing test case completed")
    
-   Logger.log("Login case completed")
+   Logger.log("Login case is completed")
 
    
 })
