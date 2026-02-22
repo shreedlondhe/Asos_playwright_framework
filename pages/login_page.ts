@@ -1,21 +1,23 @@
 
 import {Page} from '@playwright/test';
+import {data} from '../test_utils/data'
 
 export default class login_page{
 
 page:Page;
-url:string;
+
 
 constructor(page:Page){
 
 this.page=page;
-this.url="https://www.asos.com/"
+
+
 
 }
 
  
 async login(){
-await this.page.goto(this.url);
+await this.page.goto(process.env.URL!);
 console.log('navigating to this site')
 
   
