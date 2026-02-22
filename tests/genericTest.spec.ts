@@ -38,6 +38,7 @@ test("login test",async({})=>{
    
    Logger.log("Login case is completed now")
    Logger.log("addeed one more log statement")
+   Logger.log("addding 4th statement")
 
 
    
