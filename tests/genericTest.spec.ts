@@ -44,7 +44,7 @@ test("login test",async({})=>{
    Logger.log("Added 3rd login statement");
     Logger.log("addding 5th statement")
      Logger.log("addding 6th statement online")
-    Logger.log("addding 7th statement")
+   
 
    
 })
