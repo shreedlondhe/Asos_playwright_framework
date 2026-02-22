@@ -40,7 +40,7 @@ test("login test",async({})=>{
    Logger.log("addeed one more log statement")
    Logger.log("addding 4th statement")
 
-   Logger.log("Added 3rd login statement");
+   Logger.log("Added 3rd  statement");
 
    
 })
