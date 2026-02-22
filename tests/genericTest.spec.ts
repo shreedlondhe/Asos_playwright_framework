@@ -35,16 +35,7 @@ test("login test",async({})=>{
 // console.log('navigating to this site')
    await search_object.searching("ring");
    Logger.log("Searcing for ruing test case completed")
-   
-   Logger.log("Login case is completed now")
-   Logger.log("addeed one more log statement")
-   Logger.log("addding 4th statement")
-
-   Logger.log("Added 3rd  statement");
-   Logger.log("Added 3rd login statement");
-    Logger.log("addding 5th statement")
-     Logger.log("addding 6th statement online")
-   
+  
 
    
 })
