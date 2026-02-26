@@ -28,6 +28,7 @@ Logger.log("test case completed")
 })
 
 test("login test",async({})=>{
+
  
    await Login_Object.login();
 
@@ -69,5 +70,10 @@ test("code commit",async ()=>{
 test("last test case",async ()=>{
   Logger.log("Last test case")
 
-  
+
+})
+test("end test case",async ()=>{
+  Logger.log("ended")
+
+
 })

@@ -17,7 +17,7 @@ this.page=page;
 
  
 async login(){
-await this.page.goto(process.env.URL!);
+await this.page.goto("https://www.asos.com/");
 console.log('navigating to this site')
 
   

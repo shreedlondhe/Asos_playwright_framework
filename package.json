@@ -4,7 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "test:all": "playwright test",
+    "test:login": "playwright test -g \"login test\"",
+    "test:shoes": "playwright test -g \"serching for shoes\"",
+    "test:men": "playwright test -g \"Verify Men section\"",
+    "test:women": "playwright test -g \"verify women section\"",
+    "test:commit": "playwright test -g \"code commit\"",
+    "test:last": "playwright test -g \"last test case\"",
+     "test:end"  : "playwright test -g \"end test case\"",
+    "test:specific": "playwright test -g",
+    "test:verbose": "playwright test --reporter=verbose"
+         
   },
   "keywords": [],
   "author": "",
